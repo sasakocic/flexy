@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.2.5",
+        "php": "^7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "ext-json": "*",
@@ -64,7 +64,6 @@
             "security-checker security:check": "script"
         },
         "post-install-cmd": [
-            "@auto-scripts"
         ],
         "post-update-cmd": [
         ],
